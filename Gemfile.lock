@@ -120,6 +120,7 @@ GEM
       railties (>= 5.0)
     msgpack (1.2.4)
     multi_json (1.13.1)
+    mysql2 (0.5.2)
     nestive-rails (1.0.1)
       rails (>= 5.0)
     nio4r (2.3.1)
@@ -265,6 +266,7 @@ DEPENDENCIES
   devise (~> 4.5.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  mysql2
   puma (~> 3.11)
   pwa (~> 4.0.5)
   rails (~> 5.2.1)
