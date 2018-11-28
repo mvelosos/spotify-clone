@@ -1,6 +1,8 @@
 # MySQL
 
 default: &default
+  variables:
+      sql_mode: TRADITIONAL
   adapter: mysql2
   databse: spotify_development
   username: root

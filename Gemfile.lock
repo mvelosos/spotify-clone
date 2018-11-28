@@ -201,6 +201,8 @@ GEM
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
+    serviceworker-rails (0.5.5)
+      railties (>= 3.1)
     solargraph (0.28.4)
       coderay (~> 1.1)
       eventmachine (~> 1.2, >= 1.2.5)
@@ -272,6 +274,7 @@ DEPENDENCIES
   rails (~> 5.2.1)
   sass-rails (~> 5.0)
   selenium-webdriver
+  serviceworker-rails
   solargraph
   spring
   spring-watcher-listen (~> 2.0.0)
